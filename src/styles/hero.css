@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero > img {
+  width: 65%;
+}
+
+.hero > div {
+  align-self: flex-start;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+.hero h1 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.hero p {
+  font-weight: 300;
+  color: #222222;
+  width: 320px;
+}
+
+.hero h1,
+.hero p {
+  font-style: normal;
+  line-height: 110%;
+}
